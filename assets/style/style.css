@@ -39,6 +39,9 @@ body {
  h6 {
     font-size: 4rem;
  }
+ a {
+   text-decoration: none;
+ }
 .main-bg {
    background-image: url(/assets/img/mainbg.svg);
    background-size: cover;
@@ -52,7 +55,36 @@ body {
    max-width: 1200px;
    margin: 0 auto;
    padding: var(--gap);
+   align-items: center;
 }
 .section {
    min-height: 100vh;
+}
+.menu {
+   background: var(--with-color);
+   position: fixed;
+   top: 0;
+   left: 0;
+   right: 0;
+}
+.menu-content {
+   display: flex;
+   justify-content: space-between;
+   padding-top: 0;
+   padding-bottom: 0;
+}
+.menu ul {
+   list-style: none;
+   display: flex;
+   color: var(--primary-color);
+}
+.menu h1 {
+   font-size: 2.3rem;
+   color: var(--primary-color);
+}
+.menu a {
+   color: inherit;
+}
+.menu ul li a {
+   display: block;
 }
