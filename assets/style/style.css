@@ -44,10 +44,15 @@ body {
  a {
    text-decoration: none;
  }
+
+.logo {
+   width:14rem;
+ }
 .main-bg {
-   background-image: url(/assets/img/mainbg.svg);
+   background-image: url(/assets/img/bill-bg.jpg);
    background-size: cover;
-   background-position: center center;
+   background-repeat: no-repeat;
+   background-position: bottom;
    color: var(--with-color)
 }
 .white-bg {
