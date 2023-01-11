@@ -28,6 +28,7 @@ body {
  }
  h2 {
     font-size: 5rem;
+    color: var(--primary-color);
  }
  h3 {
     font-size: 5.5rem;
@@ -40,6 +41,9 @@ body {
  }
  h6 {
     font-size: 4rem;
+ }
+ p {
+   color: var(--primary-color);
  }
  a {
    text-decoration: none;
@@ -86,6 +90,7 @@ body {
    display: flex;
    color: var(--primary-color);
    border-bottom: 1px solid var(--light-gray-color);
+   
 }
 .menu h1 {
    font-size: 2.3rem;
@@ -115,4 +120,7 @@ body {
 .menu ul li a :hover ::after {
    width: 50%;
    left: 25%;
+}
+.menu-spacing {
+   height: 65px;
 }
